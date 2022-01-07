@@ -1,0 +1,46 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.movie img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.movie-info {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.movie-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 1px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.rating {
+  color: gray;
+  font-weight: bold;
+}
+
+.movie-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
